@@ -1,0 +1,13 @@
+{
+  "name": "credit_card-1lvl",
+  "scripts": {},
+  "author": "Tatyana Shustrova",
+  "dependencies": {
+    "air-datepicker": "^3.4.0",
+    "credit-card-input-mask": "^3.0.0",
+    "redom": "^4.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
