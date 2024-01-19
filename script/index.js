@@ -2,8 +2,6 @@ import {el, setChildren} from 'redom';
 import CreditCardInputMask from 'credit-card-input-mask';
 import AirDatepicker from 'air-datepicker';
 import 'air-datepicker/air-datepicker.css';
-import localeEn from 'air-datepicker/locale/en';
-
 
 const creditCard = () => {
   const cardNumber = el('span.card__number', 'xxxx xxxx xxxx xxxx');
@@ -88,9 +86,6 @@ new AirDatepicker('.input__date', {
   }
 });
 
-
 inputNumber.addEventListener('input', () => {
   cardNumber.textContent = inputNumber.value ? inputNumber.value : 'xxxx xxxx xxxx xxxx';
 });
-
-
